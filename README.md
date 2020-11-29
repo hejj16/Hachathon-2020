@@ -67,6 +67,14 @@ We use a 5-hidden-layer neuron network to classify, and the amount of neurons in
 From the table, we can tell that the difference between 2 datasets is learnable.
 
 
+### 3. Analysis the result, find the most significant difference between 2 datasets
+
+In last step, we find that the difference between 2 datasets is learnable. In this step, we use t-SNE to visualise the ability of decoupling of each layer in our trained neuron network.
+
+#### 3.1 t-SNE embedding and visualization
+
+
+
 
 
 
