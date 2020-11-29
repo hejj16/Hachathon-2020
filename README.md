@@ -87,7 +87,13 @@ This inspiration comes from the paper *Visualizing and Understanding Convolution
 We take the samples that mostly active the neurons in 1st layer. The matrix of these samples are X. A is the outout of 1st layer. Then we use formula below to recover X. Here we take pseudo-inv as W is not square.
 ![image](https://github.com/hejj16/Hachathon-2020/blob/main/pinv.PNG)
 
-Then compare the difference between input and input X. Check those dimensions significantly negative in recovered X. These dimensions can be interepreted as "useless" dimensions.
+Then compare the difference between input and input X. Check those dimensions significantly negative in recovered X. These dimensions can be interepreted as "useless" dimensions beacuse 1st layers are not activated by these dimensions.
+
+By teasing these dimensions out, we get 22 dimensions remained.
+
+#### 3.3 Find the most important dimensions amoung 22 dimensions
+
+
 
 
 
