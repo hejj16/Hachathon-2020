@@ -85,7 +85,7 @@ To see what the 1st layer does, we take pseudo-inverse to recoover input.
 This inspiration comes from the paper *Visualizing and Understanding Convolutional Networks* by Zeiler M.D., Fergus R. in 2014. Though this is not a ConvNet, the idea is similar.
 
 We take the samples that mostly active the neurons in 1st layer. The matrix of these samples are X. A is the outout of 1st layer. Then we use formula below to recover X. Here we take pseudo-inv as W is not square.
-![image](https://github.com/hejj16/Hachathon-2020/upload)
+![image](https://github.com/hejj16/Hachathon-2020/blob/main/pinv.PNG)
 
 Then compare the difference between input and input X. Check those dimensions significantly negative in recovered X. These dimensions can be interepreted as "useless" dimensions.
 
