@@ -14,9 +14,11 @@ A more detailed description is shown below.
 
 ## An outline of our work
 
-- Train a model on synthetic data, compare the performance on synthetic data and real data.
+- Train a model on synthetic data to predict re-admission of the patients, compare the performance on synthetic data and real data.
 - Train a Neuron Net to classify real data and synthetic data.
 - Analyze the result of the last step, find the most significant difference between two datasets.
 
+## Detailed description of each step
 
+### Train a model to predict re-admission of the patient.
 
