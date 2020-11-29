@@ -39,8 +39,13 @@ When predicting, use discrete fratures by Random Forest2 to classify, and use co
 #### 1.3 Result
 
 |            |  Synthetic Data (Training set)   |  Synthetic Data (Val set)  |  Real Data  |
-| :--------:   | :-----:   | :----: |  :----: |
+| :------:   | :----:   | :----: |  :----: |
 | Accuracy   | 71%      |   68%   |  53% |
+
+From the table, we find that real data is much **harder** to predict than synthetic data.
+
+So only using synthetic data to conduct data analysis is **risky**.
+
 
 
 
