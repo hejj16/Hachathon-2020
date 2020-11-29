@@ -20,5 +20,5 @@ A more detailed description is shown below.
 
 ## Detailed description of each step
 
-##### 1. Train a model to predict re-admission of the patient.
+#### 1. Train a model to predict re-admission of the patient.
 
