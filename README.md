@@ -12,4 +12,9 @@ Our team page is at https://biolib.com/SVM/Spaghetti-Vector-Monster/
 An outline of our work and result can be found in the file "Presentation_Slides.pdf".
 
 A more detailed description is shown below.
+<\br>
+## An outline of our work
+
+- 
+
 
