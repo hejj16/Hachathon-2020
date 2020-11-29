@@ -80,6 +80,13 @@ From the picture, we can see after 1st layer, the decoupling is pretty good. Tho
 
 #### 3.2 Analyse what the 1st layer does
 
+To see what the 1st layer does, we take pseudo-inverse to recoover input.
+
+This inspiration comes from the paper *Visualizing and Understanding Convolutional Networks* by Zeiler M.D., Fergus R. in 2014. Though this is not a ConvNet, the idea is similar.
+
+The output of 1st layer is $A^{[1]}$, $W$ and $b$ is the parameter of 1st layer.
+So $A^{[1]} = ReLU(WX+b) $
+So $X \approx W^{-1}(A-b) $, where $W^{-1}$ means pseudo-inverse as $W$ is not square.
 
 
 
