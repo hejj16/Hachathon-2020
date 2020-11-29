@@ -36,6 +36,11 @@ The structure during training is shown as follows:
 
 When predicting, use discrete fratures by Random Forest2 to classify, and use continuous features by Neuron Network to further classify those data being predicted as class -1.
 
+#### 1.3 Result
+
+|            |  Synthetic Data (Training set)   |  Synthetic Data (Val set)  |  Real Data  |
+| --------   | -----:   | ----: |  | :----: |
+| Accuracy       | 71%      |   68%   |  53% |
 
 
 
