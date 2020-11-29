@@ -95,14 +95,33 @@ By teasing these dimensions out, we get 22 dimensions remained.
 
 First, train model to classify real and syn data using only 1 dimension of these 22 dimensions, finding the accuracy are just a little bit higher than 50%, indecating that one dimension is not sufficient.
 
-Second, train model by using 2 dimensions of these 22 dimensions, finding by combining "insulin" and "diabeteMed"/ "insulin" and "change" / "change" and "diabeteMed", the accuracy can achieve about 62-65%. While the combination of other dimensions seem no use.
+Second, train model by using 2 dimensions of these 22 dimensions, finding by combining "insulin" and "diabetesMed"/ "insulin" and "change" / "change" and "diabetesMed", the accuracy can achieve about 62-65%. While the combination of other dimensions seem no use.
 
-Then we train model by using these 3 dimensions: "insulin", "change" and "diabeteMed". The accuracy is shown below.
+Then we train model by using these 3 dimensions: "insulin", "change" and "diabetesMed". The accuracy is shown below.
 
 |            |  All features   |  Only 3 features  |  All other features  |
 | :------:   | :----:   | :----: |  :----: |
 | Accuracy   | 88%      |   72%   |  74% |
 
+This indecates that these 3 features really matter.
+
+#### 3.4 Understand why these 3 features matter
+
+We calculate the correlation coefficient between these 3 features, the result is shown as follow.
+
+**Real Data**
+|            |  insulin   |  change  |  diabetesMed  |
+| :------:   | :----:   | :----: |  :----: |
+| insulin   | 1.00      |   -0.14  |  0.26 |
+| change  | -0.14     |   1.00   |  -0.51 |
+| diabetesMed   | 0.26      |   -0.51   |  1.00 |
+
+**Synthetic Data**
+|            |  insulin   |  change  |  diabetesMed  |
+| :------:   | :----:   | :----: |  :----: |
+| insulin   | 1.00      |   -0.02  |  0.01 |
+| change  | -0.02     |   1.00   |  -0.02 |
+| diabetesMed   | 0.01      |   -0.02   |  1.00 |
 
 
 
