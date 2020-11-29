@@ -1,6 +1,8 @@
 # Hachathon-2020
 
-Authors: [Jiajun He](https://github.com/hejj16), [Zelin Li](https://github.com/lzlniu)
+Teammates: [Jiajun He](https://github.com/hejj16), [Zelin Li](https://github.com/lzlniu)
+
+<br/>
 
 This repository stores the code and results in Hackathon-2020, aiming to analyse the real dataset  and synthetic dataset if diabetes.
 
