@@ -30,6 +30,13 @@ So in **all** of the following analysis, we teased out these dimensions.
 
 #### 1.2 Model structure 
 
+The structure during training is shown as follows:
+
+![image](https://github.com/hejj16/Hachathon-2020/blob/main/model-structure1.png)
+
+When predicting, use discrete fratures by Random Forest2 to classify, and use continuous features by Neuron Network to further classify those data being predicted as class -1.
+
+
 
 
 
