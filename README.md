@@ -131,11 +131,11 @@ This is the most significant difference between 2 datasets.
 
 ### 4. Conclusion
 
-The mainly difference between real data and synthetic data are dimensions “insulin”, “change” and “diabetesMed”;
+- The mainly difference between real data and synthetic data are dimensions “insulin”, “change” and “diabetesMed”;
 
-In real data, these three dimensions are highly related;
+- In real data, these three dimensions are highly related;
 
-while in synthetic data, these three dimensions seems to be generated independently.
+- While in synthetic data, these three dimensions seems to be generated independently.
 
 
 
