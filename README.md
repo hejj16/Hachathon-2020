@@ -20,5 +20,16 @@ A more detailed description is shown below.
 
 ## Detailed description of each step
 
-#### 1. Train a model to predict re-admission of the patient.
+### 1. Train a model to predict re-admission of the patient.
+
+#### 1.1 PCA
+
+By PCA, we reduce 41 dimensions(except readmit) to 10 dimensions, then calculate the correlation coefficient between each principle component and each raw dimensions.
+Find that there are some dimensions that are very un-related with all those 10 principle components, they are "chlorpropamide", "acetohexamide", "tolbutamide", "miglitol", "tolazamide", "glyburide-metformin", "glipizide-metformin". 
+So in **all** of the following analysis, we teased out these dimensions.
+
+#### 1.2 Model structure 
+
+
+
 
