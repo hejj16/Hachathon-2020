@@ -1,14 +1,12 @@
 # Hachathon-2020
 
-Teammates: [Jiajun He](https://github.com/hejj16), [Zelin Li](https://github.com/lzlniu)
-
-<br/>
 
 This repository stores the code and results in Hackathon-2020, aiming to analyse the real dataset  and synthetic dataset if diabetes.
 
 The dataset and descriptions can be found at https://biolib.com/GATTAC/Diabetes-Machine-Learning-Data-ornq/ or in the folder "data".
 
-Our team page is at https://biolib.com/SVM/Spaghetti-Vector-Monster/
+Our team page is at https://biolib.com/SVM/Spaghetti-Vector-Monster/ .
+Teammates: [Jiajun He](https://github.com/hejj16), [Zelin Li](https://github.com/lzlniu)
 
 An outline of our work and result can be found in the file "Presentation_Slides.pdf".
 
