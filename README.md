@@ -124,6 +124,23 @@ We calculate the correlation coefficient between these 3 features, the result is
 | diabetesMed   | 0.01      |   -0.02   |  1.00 |
 
 
+In real data, these three dimensions are highly **related**;
+while in synthetic data, these three dimensions seems to be generated **independently**.
+This is the most significant difference between 2 datasets.
+
+
+### 4. Conclusion
+
+The mainly difference between real data and synthetic data are dimensions “insulin”, “change” and “diabetesMed”;
+
+In real data, these three dimensions are highly related;
+
+while in synthetic data, these three dimensions seems to be generated independently.
+
+
+
+
+
 
 
 
