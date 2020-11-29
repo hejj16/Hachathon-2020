@@ -53,6 +53,21 @@ So only using synthetic data to conduct data analysis is **risky**.
 
 ### 2. Classify real data and synthetic data
 
+Last step, we find that there are significant difference between 2 dataset, so in this step, we want to figure out if this difference is learnable by training a classifier to classify 2 dataset.
+
+#### 2.1 Model structure
+
+We use a 5-hidden-layer neuron network to classify, and the amount of neurons in each layer is 60, 40, 20, 10, 5.
+
+#### 2.2 Result
+|            |  Training set   |  Val set  |
+| :------:   | :----:   | :----: | 
+| Accuracy   | 90%      |   88%   |
+
+From the table, we can tell that the difference between 2 datasets is learnable.
+
+
+
 
 
 
