@@ -20,7 +20,11 @@ A more detailed description is shown below.
 
 ## Detailed description of each step
 
-### 1. Train a model to predict re-admission of the patient.
+### 1. Train a model to predict re-admission of the patient
+
+Train a model on synthetic data to predict re-admission of the patients, then valid on validation set of synthetic data and on real data.
+Compare the difference in performance, to find if there is any difference between real data and syn data.
+
 
 #### 1.1 PCA
 
@@ -45,6 +49,9 @@ When predicting, use discrete fratures by Random Forest2 to classify, and use co
 From the table, we find that real data is much **harder** to predict than synthetic data.
 
 So only using synthetic data to conduct data analysis is **risky**.
+
+
+### 2. Classify real data and synthetic data
 
 
 
