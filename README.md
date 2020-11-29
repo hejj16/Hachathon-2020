@@ -74,6 +74,13 @@ In last step, we find that the difference between 2 datasets is learnable. In th
 #### 3.1 t-SNE embedding and visualization
 
 
+![image](https://github.com/hejj16/Hachathon-2020/blob/main/tsne.png)
+
+From the picture, we can see after 1st layer, the decoupling is pretty good. Though as network goes deeper, the result is getting better, what makes a significant difference is 1st layer. 
+
+#### 3.2 Analyse what the 1st layer does
+
+
 
 
 
