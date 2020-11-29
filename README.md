@@ -93,6 +93,15 @@ By teasing these dimensions out, we get 22 dimensions remained.
 
 #### 3.3 Find the most important dimensions amoung 22 dimensions
 
+First, train model to classify real and syn data using only 1 dimension of these 22 dimensions, finding the accuracy are just a little bit higher than 50%, indecating that one dimension is not sufficient.
+
+Second, train model by using 2 dimensions of these 22 dimensions, finding by combining "insulin" and "diabeteMed"/ "insulin" and "change" / "change" and "diabeteMed", the accuracy can achieve about 62-65%. While the combination of other dimensions seem no use.
+
+Then we train model by using these 3 dimensions: "insulin", "change" and "diabeteMed". The accuracy is shown below.
+
+|            |  All features   |  Only 3 features  |  All other features  |
+| :------:   | :----:   | :----: |  :----: |
+| Accuracy   | 88%      |   72%   |  74% |
 
 
 
