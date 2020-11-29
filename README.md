@@ -7,3 +7,7 @@ The dataset and descriptions can be found at https://biolib.com/GATTAC/Diabetes-
 
 
 Our team page is at https://biolib.com/SVM/Spaghetti-Vector-Monster/
+
+
+An outline of our work and result can be found in the file "Presentation_Slides.pdf"
+
