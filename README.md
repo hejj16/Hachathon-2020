@@ -39,9 +39,14 @@ When predicting, use discrete fratures by Random Forest2 to classify, and use co
 #### 1.3 Result
 
 |            |  Synthetic Data (Training set)   |  Synthetic Data (Val set)  |  Real Data  |
-| --------   | -----:   | ----: |  | :----: |
-| Accuracy       | 71%      |   68%   |  53% |
+| --------   | -----:   | ----: |  :----: |
+| Accuracy   | 71%      |   68%   |  53% |
 
 
+| 水果        | 价格    |  数量  |
+| --------   | -----:   | :----: |
+| 香蕉        | $1      |   5    |
+| 苹果        | $1      |   6    |
+| 草莓        | $1      |   7    |
 
 
